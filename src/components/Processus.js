@@ -1,5 +1,5 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faSearch, faLightbulb, faRocket,faDraftingCompass, faCube, faCheckCircle,faBook } from "@fortawesome/free-solid-svg-icons";
+import { faSearch, faLightbulb, faDraftingCompass, faCube, faCheckCircle,faBook } from "@fortawesome/free-solid-svg-icons";
 
 
  const processSteps = [

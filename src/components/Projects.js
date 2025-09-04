@@ -1,6 +1,6 @@
 
-import { Button, Card, Form, Input, Progress, Modal } from 'antd';
-import { DownloadOutlined, GithubOutlined, LinkedinOutlined, BehanceOutlined, MailOutlined, PhoneOutlined } from '@ant-design/icons';
+import { Button, Card} from 'antd';
+import { GithubOutlined} from '@ant-design/icons';
 
 const projects = [
     {

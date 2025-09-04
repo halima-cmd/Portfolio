@@ -1,10 +1,6 @@
-import React, { useState, useEffect } from "react";
-import { Button, Card, Form, Input, Progress, Modal } from "antd";
+// import React, { useState, useEffect } from "react";
+import { Button, Form, Input } from "antd";
 import {
-  DownloadOutlined,
-  GithubOutlined,
-  LinkedinOutlined,
-  BehanceOutlined,
   MailOutlined,
   PhoneOutlined,
 } from "@ant-design/icons";
