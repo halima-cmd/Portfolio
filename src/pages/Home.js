@@ -9,6 +9,7 @@ import { Button } from "antd";
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faArrowUp} from "@fortawesome/free-solid-svg-icons";
+import Footer from '../components/Footer';
 
 const scrollToSection = (sectionId) => {
   const element = document.getElementById(sectionId);
@@ -26,6 +27,7 @@ const Home = () => {
       <Project />
       <Processus />
       <ContactForm />
+      <Footer />
 
       <Button
         shape="circle"

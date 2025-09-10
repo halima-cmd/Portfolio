@@ -10,7 +10,9 @@ import {
   faJava,
   faJira,
   faVuejs,
-  faNodeJs
+  faNodeJs,
+  faDocker,
+
 } from '@fortawesome/free-brands-svg-icons';
 import { faCode } from '@fortawesome/free-solid-svg-icons';
 
@@ -25,9 +27,12 @@ const skills = [
   { icon: faAngular, name: 'Angular' },
   { icon: faVuejs, name: 'Vue JS' },
   { icon: faNodeJs, name: 'Next JS' },
+  { icon: faDocker, name: 'Docker' },
   { icon: faGithub, name: 'GitHub' },
   { icon: faJava, name: 'Tailwind CSS' },
   { icon: faJira, name: 'Jira' },
+
+  
 ];
 
 const Navbar = () => {
