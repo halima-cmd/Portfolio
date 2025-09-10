@@ -12,7 +12,7 @@ import {
   faVuejs,
   faNodeJs,
   faDocker,
-  faKeycdn
+
 } from '@fortawesome/free-brands-svg-icons';
 import { faCode } from '@fortawesome/free-solid-svg-icons';
 
