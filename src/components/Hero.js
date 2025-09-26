@@ -16,7 +16,7 @@ const Hero = () => {
   const handleDownload = () => {
     const link = document.createElement("a");
     link.href = "/CV_Halima_DIALLO.pdf"; // Ton fichier dans public/
-    link.download = "CV_Halima_DIALLO.pdff"; // Nom du fichier téléchargé
+    link.download = "CV_Halima_DIALLO.pdf"; // Nom du fichier téléchargé
     link.click();
   };
 
@@ -43,15 +43,15 @@ const Hero = () => {
             >
               Voir mon travail
             </Button>
-            <a href="/CV_Halima_DIALLO.pdf" download>
-      <Button
-        size="large"
-        icon={<DownloadOutlined />}
-        className="!rounded-button whitespace-nowrap cursor-pointer border-pink-300 text-pink-600 hover:border-pink-500 hover:text-pink-700"
-      >
-        Télécharger mon CV
-      </Button>
-    </a>
+            <Button
+  size="large"
+  icon={<DownloadOutlined />}
+  onClick={handleDownload}
+  className="!rounded-button whitespace-nowrap cursor-pointer border-pink-300 text-pink-600 hover:border-pink-500 hover:text-pink-700"
+>
+  Télécharger mon CV
+</Button>
+
           </div>
         </div>
         <div className="flex justify-center">
