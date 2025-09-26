@@ -2,6 +2,7 @@
 import React, { useEffect, useState } from "react";
 import { Button } from "antd";
 import { DownloadOutlined } from "@ant-design/icons";
+import Halimatou from "../assets/HalimaD.png";
 
 const Hero = () => {
   const [isVisible, setIsVisible] = useState(false);
@@ -11,6 +12,14 @@ const Hero = () => {
     const timeout = setTimeout(() => setIsVisible(true), 100);
     return () => clearTimeout(timeout);
   }, []);
+
+  const handleDownload = () => {
+    const link = document.createElement("a");
+    link.href = "/CV_Halima_DIALLO.pdf"; // Ton fichier dans public/
+    link.download = "CV_Halima_DIALLO.pdff"; // Nom du fichier téléchargé
+    link.click();
+  };
+
 
   return (
     <section id="accueil" className="hero-bg min-h-screen flex items-center pt-20">
@@ -34,21 +43,23 @@ const Hero = () => {
             >
               Voir mon travail
             </Button>
-            <Button
-              size="large"
-              icon={<DownloadOutlined />}
-              className="!rounded-button whitespace-nowrap cursor-pointer border-pink-300 text-pink-600 hover:border-pink-500 hover:text-pink-700"
-            >
-              Télécharger mon CV
-            </Button>
+            <a href="/CV_Halima_DIALLO.pdf" download>
+      <Button
+        size="large"
+        icon={<DownloadOutlined />}
+        className="!rounded-button whitespace-nowrap cursor-pointer border-pink-300 text-pink-600 hover:border-pink-500 hover:text-pink-700"
+      >
+        Télécharger mon CV
+      </Button>
+    </a>
           </div>
         </div>
         <div className="flex justify-center">
           <div className="relative">
             <img
-              src="https://readdy.ai/api/search-image?query=professional%20female%20designer%20portrait%20with%20soft%20lighting%2C%20elegant%20pose%2C%20modern%20workspace%20background%2C%20creative%20and%20confident%20expression%2C%20pastel%20color%20palette%2C%20clean%20aesthetic&width=400&height=500&seq=portrait&orientation=portrait"
-              alt="Halima"
-              className="w-80 h-96 object-cover object-top rounded-3xl shadow-2xl"
+                src={Halimatou}
+                alt="Halima"
+                className="w-80 h-96 object-cover object-top rounded-3xl shadow-2xl"
             />
             <div className="absolute -bottom-6 -right-6 w-24 h-24 bg-gradient-to-br from-pink-400 to-purple-400 rounded-full opacity-20"></div>
             <div className="absolute -top-6 -left-6 w-16 h-16 bg-gradient-to-br from-orange-300 to-pink-300 rounded-full opacity-30"></div>
