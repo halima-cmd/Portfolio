@@ -1,24 +1,25 @@
 
 import { Button, Card} from 'antd';
 import { GithubOutlined} from '@ant-design/icons';
-import Frame from '../assets/Frame.png';
+import Frame from '../assets/Frame.png'; 
+import Task from '../assets/TaskApp.png';
 
 const projects = [
     {
     title: 'Application E-commerce Mobile',
     description: 'Interface utilisateur moderne pour une application de shopping avec expérience utilisateur optimisée.',
     image: Frame,
-    tags: ['React Native', 'Figma', 'UX Design'],
+    tags: ['React Native', 'Figma', 'UX-UI Design'],
     github: '#',
     demo: '#'
     },
     {
     title: 'Dashboard Analytics',
     description: 'Tableau de bord interactif avec visualisations de données et interface intuitive.',
-    image: 'https://readdy.ai/api/search-image?query=clean%20analytics%20dashboard%20interface%20with%20soft%20pastel%20colors%2C%20data%20visualization%20charts%2C%20modern%20UI%20elements%2C%20white%20background%2C%20professional%20design%20aesthetic&width=400&height=300&seq=proj2&orientation=landscape',
-    tags: ['Angular', 'D3.js', 'UI Design'],
+    image: Task,
+    tags: ['Angular', 'D3.js', 'UX-UI Design'],
     github: '#',
-    demo: '#'
+    demo: 'https://www.figma.com/proto/WSgWwR4vDU5FIbjzYQIWj1/Untitled?node-id=11-1898&p=f&t=QO1H9wMYBgOUv4G4-1&scaling=scale-down-width&content-scaling=fixed&page-id=11%3A1897'
     },
     {
     title: 'Site Web Corporate',
