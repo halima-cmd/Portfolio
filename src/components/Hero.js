@@ -30,7 +30,7 @@ const Hero = () => {
             <span className="block text-pink-500">Halimatou DIALLO</span>
           </h1>
           <p className="text-xl text-gray-600 leading-relaxed">
-            UX/UI Designer & Front-End Developer
+          UX/UI Designer | Front-End Developer | Testeur QA | Polyvalente Digitale
           </p>
           <p className="text-lg text-gray-500 max-w-md">
             Je crée des expériences numériques élégantes et intuitives, alliant créativité et expertise technique pour donner vie à vos idées.

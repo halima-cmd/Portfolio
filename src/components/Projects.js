@@ -1,12 +1,13 @@
 
 import { Button, Card} from 'antd';
 import { GithubOutlined} from '@ant-design/icons';
+import Frame from '../assets/Frame.png';
 
 const projects = [
     {
     title: 'Application E-commerce Mobile',
     description: 'Interface utilisateur moderne pour une application de shopping avec expérience utilisateur optimisée.',
-    image: 'https://readdy.ai/api/search-image?query=modern%20mobile%20shopping%20app%20interface%20design%20with%20clean%20white%20background%2C%20pink%20and%20beige%20color%20scheme%2C%20elegant%20product%20cards%2C%20minimalist%20layout%2C%20professional%20UI%20design%20showcase&width=400&height=300&seq=proj1&orientation=landscape',
+    image: Frame,
     tags: ['React Native', 'Figma', 'UX Design'],
     github: '#',
     demo: '#'
@@ -78,12 +79,14 @@ const Projects = () => {
         GitHub
         </Button>
         <Button
-        type="primary"
-        size="small"
-        className="!rounded-button whitespace-nowrap cursor-pointer bg-pink-500 hover:bg-pink-600 border-pink-500"
-        >
-        Voir Demo
-        </Button>
+  type="primary"
+  size="small"
+  className="!rounded-button whitespace-nowrap cursor-pointer bg-pink-500 hover:bg-pink-600 border-pink-500"
+  onClick={() => window.open('https://www.figma.com/proto/iNiUuFYgiqQY1xqtQ0qgaA/Untitled?node-id=52-2770&p=f&t=rFUiBNaN6GukZExp-1&scaling=scale-down&content-scaling=fixed&page-id=52%3A1878&starting-point-node-id=52%3A2770', '_blank')}
+>
+  Voir Demo
+</Button>
+
         </div>
         </div>
         </Card>
