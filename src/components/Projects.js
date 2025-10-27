@@ -3,11 +3,12 @@ import { Button, Card} from 'antd';
 import { GithubOutlined} from '@ant-design/icons';
 import Frame from '../assets/Frame.png'; 
 import Task from '../assets/TaskApp.png';
+import FrameChocolats from '../assets/FrameChocolats.png';
 
 const projects = [
     {
-    title: 'Application E-commerce Mobile',
-    description: 'Interface utilisateur moderne pour une application de shopping avec expérience utilisateur optimisée.',
+    title: 'Le Musée des Civilisations Noires à l’ère du digital',
+    description: 'Interface utilisateur moderne pour une plateforme digitale fluide et accessible sans téléchargement.',
     image: Frame,
     tags: ['React Native', 'Figma', 'UX-UI Design'],
     github: '#',
@@ -22,9 +23,9 @@ const projects = [
     demo: 'https://www.figma.com/proto/WSgWwR4vDU5FIbjzYQIWj1/Untitled?1898&p=f&t=QO1H9wMYBgOUv4G4-1&scaling=scale-down-width&content-scaling=fixed&page-id=11%3A1897'
     },
     {
-    title: 'Site Web Corporate',
-    description: 'Site vitrine élégant avec animations fluides et design responsive.',
-    image: 'https://readdy.ai/api/search-image?query=elegant%20corporate%20website%20design%20with%20soft%20feminine%20colors%2C%20clean%20layout%2C%20modern%20typography%2C%20white%20background%2C%20professional%20business%20interface&width=400&height=300&seq=proj3&orientation=landscape',
+    title: 'Site Web',
+    description: 'Site  élégant avec animations fluides et design responsive.',
+    image: FrameChocolats,
     tags: ['React', 'SCSS', 'Web Design'],
     github: '#',
     demo: '#'
