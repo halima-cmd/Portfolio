@@ -28,7 +28,7 @@ const projects = [
     image: FrameChocolats,
     tags: ['React', 'SCSS', 'Web Design'],
     github: '#',
-    demo: '#'
+    demo: 'https://www.figma.com/proto/AxgmME9GJnml7AF0Y2suiM/SiteWeb?node-id=15-1313&t=NdJ3MPs8RY1XZ5Pn-1&scaling=min-zoom&content-scaling=fixed&page-id=15%3A2'
     }
     ];
 
