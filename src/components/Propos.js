@@ -44,7 +44,7 @@ const Navbar = () => {
           <div className="space-y-6">
             <h2 className="text-4xl font-bold text-gray-800 mb-8">À propos de moi</h2>
             <p className="text-lg text-gray-600 leading-relaxed">
-              Passionnée par l'intersection entre design et technologie, je combine ma formation en design UX/UI avec mes compétences en développement front-end pour créer des solutions digitales exceptionnelles.
+              Passionnée par l'intersection entre design et technologie, je combine ma formation en Informatique appliquée avec mes compétences en design UX/UI pour créer des solutions digitales exceptionnelles.
             </p>
             <p className="text-lg text-gray-600 leading-relaxed">
               Avec plus de 4 ans d'expérience, j'accompagne mes clients dans la conception et la réalisation de leurs projets numériques, de l'idée initiale jusqu'à la mise en production.

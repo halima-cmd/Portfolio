@@ -18,7 +18,7 @@ const projects = [
     title: 'Gestionnaire de tâches — Application web intuitive',
     description: 'Elle permet d’ajouter, modifier, supprimer et organiser ses tâches par catégories, avec un système de filtrage et une interface simple et responsive.',
     image: Task,
-    tags: ['Angular', 'D3.js', 'UX-UI Design'],
+    tags: ['Angular', 'UX-UI Design'],
     github: '#',
     demo: 'https://www.figma.com/proto/WSgWwR4vDU5FIbjzYQIWj1/Untitled?1898&p=f&t=QO1H9wMYBgOUv4G4-1&scaling=scale-down-width&content-scaling=fixed&page-id=11%3A1897'
     },
